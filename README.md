@@ -2,10 +2,11 @@
 # Vagrant ansible cluster build
 
 # Setup
-   `Requirements`
-    **install Vagrant**
-    **install Virtualbox**
-    **generate public/private ssh key pair**
+   ## Requirements
+
+    * install Vagrant
+    * install Virtualbox
+    * generate public/private ssh key pair
 
  **https://www.vagrantup.com/docs/provisioning/ansible_intro.html**
 
