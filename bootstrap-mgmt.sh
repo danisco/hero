@@ -7,8 +7,8 @@ apt-get update
 apt-get -y install ansible
 
 # copy examples into /home/vagrant (from inside the mgmt node)
-#cp -a /vagrant/examples/* /home/vagrant
-#chown -R vagrant:vagrant /home/vagrant
+cp -a /vagrant/examples/* /home/vagrant
+chown -R vagrant:vagrant /home/vagrant
 #upload ssh private key
 cp /vagrant/secrets/mgmt.key /home/vagrant/.ssh/id_rsa
 chown -R vagrant:vagrant /home/vagrant/.ssh
