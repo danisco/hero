@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<!-- Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of 
+five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. -->
+<head>
+<title></title>
+</head>
+<body onload="fizzBuzz()">
+<div id="main">
+</div>
+
+<script>
+
+function fizzBuzz(){
+
+
+for (i=0; i < 101; i++){
+	
+	var div = document.getElementById('main');
+	
+	if (i % 3 == 0 && i % 5 == 0){ 					// test if number divisible by 3 and 5
+	
+		div.innerHTML +=  "fizzBuzz<br>";
+		
+	}
+	else if (i % 3 == 0){							// test if divisible by 3
+	
+		div.innerHTML +=  "fizz<br>";
+	
+	}
+	else if (i % 5 == 0){							// test if divisible by 5
+	
+		div.innerHTML +=  "Buzz<br>"
+	
+	}
+	else {
+	
+		div.innerHTML +=  i + "<br>";
+	
+	}
+}
+
+
+}
+
+</script>
+</body>
+</html>
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
